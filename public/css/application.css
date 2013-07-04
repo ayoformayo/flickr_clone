@@ -1,9 +1,30 @@
 .container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+ margin-top: -30px;
+  width: 100%;
+  padding: 30px 20px 20px 20px;
+
 }
 th {
   text-align: left;
 }
+
+header {
+  background-color: black;
+  width: 100%;
+ margin: 0px -20px 0px -20px;
+padding: 20px 0px 20px 0px;
+position: fixed;
+}
+header a { color: white; text-decoration: none; margin-left: 30px; font-family: 'Permanent Marker' ;}
+
+header #log_in {float: right; margin-right: 10%;}
+
+.photo {display: inline-block;}
+
+.photodisplay {margin-top: 58px;}
+.photodisplay .photo {padding: 0px 15px 10px 15px;}
+
+.details, .details a {font-family: 'Permanent Marker' ; font-size: 10px; color: gray; text-decoration: none;}
+
+.albums{margin-top: 67px;}
+.album {width: 300px; margin-right: 0px; display:inline-block;}

@@ -1,0 +1,9 @@
+<div class='albums'>
+  <% @albums.each do |album| %>
+  <div class='album'>
+    <a href="/albums/<%=album.id%>"><img src="/<%=album.photos.first.small_url%>"></a><br>
+    <span class='details'><%=album.name%></span>
+  </div>
+  <%end %>
+</div>
+
